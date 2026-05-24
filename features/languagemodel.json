@@ -1,0 +1,141 @@
+{
+ "compat_features": [
+  "api.LanguageModel",
+  "api.LanguageModel.append",
+  "api.LanguageModel.availability_static",
+  "api.LanguageModel.clone",
+  "api.LanguageModel.contextUsage",
+  "api.LanguageModel.contextWindow",
+  "api.LanguageModel.create_static",
+  "api.LanguageModel.measureContextUsage",
+  "api.LanguageModel.prompt",
+  "api.LanguageModel.promptStreaming"
+ ],
+ "description": "The LanguageModel API prompts an on-device language model. Also known as the Prompt API.",
+ "description_html": "The <code>LanguageModel</code> API prompts an on-device language model. Also known as the Prompt API.",
+ "kind": "feature",
+ "name": "LanguageModel",
+ "spec": [
+  "http://webmachinelearning.github.io/prompt-api/"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.LanguageModel": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   },
+   "api.LanguageModel.append": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   },
+   "api.LanguageModel.availability_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   },
+   "api.LanguageModel.clone": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   },
+   "api.LanguageModel.contextUsage": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   },
+   "api.LanguageModel.contextWindow": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   },
+   "api.LanguageModel.create_static": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   },
+   "api.LanguageModel.measureContextUsage": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   },
+   "api.LanguageModel.prompt": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   },
+   "api.LanguageModel.promptStreaming": {
+    "baseline": false,
+    "support": {
+     "chrome": "148",
+     "edge": "148"
+    }
+   }
+  },
+  "support": {
+   "chrome": "148",
+   "edge": "148"
+  }
+ },
+ "id": "languagemodel",
+ "groups": [],
+ "specs": [
+  {
+   "url": "http://webmachinelearning.github.io/prompt-api/"
+  }
+ ],
+ "mdnUrls": [],
+ "standardPositions": [
+  {
+   "vendor": "mozilla",
+   "url": "https://github.com/mozilla/standards-positions/issues/1213",
+   "position": "negative",
+   "concerns": [
+    "interoperability"
+   ]
+  },
+  {
+   "vendor": "apple",
+   "url": "https://github.com/WebKit/standards-positions/issues/495",
+   "position": "",
+   "concerns": [
+    "interoperability",
+    "privacy",
+    "portability"
+   ]
+  }
+ ],
+ "hasNegativeStandardPosition": true,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [],
+ "wpt": null,
+ "developerSignals": null,
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/417526788"
+  ]
+ },
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

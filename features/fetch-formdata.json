@@ -1,0 +1,130 @@
+{
+ "compat_features": [
+  "api.Request.formData",
+  "api.Response.formData"
+ ],
+ "description": "The Request.formData() and Response.formData() methods read a request or response body and return a FormData promise. You can use it to access the fields of a form submission.",
+ "description_html": "The <code>Request.formData()</code> and <code>Response.formData()</code> methods read a request or response body and return a <code>FormData</code> promise. You can use it to access the fields of a form submission.",
+ "group": [
+  "fetch"
+ ],
+ "kind": "feature",
+ "name": "Fetch form data",
+ "spec": [
+  "https://fetch.spec.whatwg.org/#body-mixin"
+ ],
+ "status": {
+  "baseline": false,
+  "by_compat_key": {
+   "api.Request.formData": {
+    "baseline": false,
+    "support": {
+     "firefox": "39",
+     "firefox_android": "39",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   },
+   "api.Response.formData": {
+    "baseline": false,
+    "support": {
+     "firefox": "39",
+     "firefox_android": "39",
+     "safari": "14.1",
+     "safari_ios": "14.5"
+    }
+   }
+  },
+  "support": {
+   "firefox": "39",
+   "firefox_android": "39",
+   "safari": "14.1",
+   "safari_ios": "14.5"
+  }
+ },
+ "id": "fetch-formdata",
+ "groups": [
+  "fetch"
+ ],
+ "specs": [
+  {
+   "url": "https://fetch.spec.whatwg.org/#body-mixin",
+   "seriesComposition": "full",
+   "shortname": "fetch",
+   "series": {
+    "shortname": "fetch",
+    "currentSpecification": "fetch",
+    "title": "Fetch",
+    "shortTitle": "Fetch",
+    "nightlyUrl": "https://fetch.spec.whatwg.org/"
+   },
+   "organization": "WHATWG",
+   "groups": [
+    {
+     "name": "Fetch Workstream",
+     "url": "https://fetch.spec.whatwg.org/"
+    }
+   ],
+   "nightly": {
+    "url": "https://fetch.spec.whatwg.org/",
+    "status": "Living Standard",
+    "alternateUrls": [],
+    "repository": "https://github.com/whatwg/fetch",
+    "sourcePath": "fetch.bs",
+    "filename": "index.html"
+   },
+   "title": "Fetch",
+   "source": "whatwg",
+   "shortTitle": "Fetch",
+   "categories": [
+    "browser"
+   ],
+   "standing": "good",
+   "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": [
+     "cors",
+     "fetch"
+    ],
+    "excludePaths": [
+     "fetch/local-network-access",
+     "fetch/metadata"
+    ]
+   },
+   "fragment": "body-mixin"
+  }
+ ],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/Request/formData",
+   "title": "Request: formData() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Request/formData"
+  },
+  {
+   "slug": "Web/API/Response/formData",
+   "title": "Response: formData() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/Response/formData"
+  }
+ ],
+ "standardPositions": [],
+ "hasNegativeStandardPosition": false,
+ "stateOfSurveys": [],
+ "chromeUseCounters": {},
+ "interop": [
+  {
+   "year": 2026,
+   "label": "interop-2026-fetch",
+   "url": "https://wpt.fyi/interop-2026?feature=interop-2026-fetch"
+  }
+ ],
+ "wpt": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/537",
+  "votes": 4
+ },
+ "bugs": {},
+ "baselineLowDateAsObject": null,
+ "baselineHighDateAsObject": null
+}

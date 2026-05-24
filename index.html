@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web platform features explorer - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
+    
+    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
+  </head>
+  <body>
+
+    
+      <header>
+        <a href="/web-features-explorer/">Web platform features explorer</a>
+
+        <nav>
+          <ul>
+            <li><a href="/web-features-explorer/release-notes/may-2026">Release notes</a></li>
+            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
+            <li><a href="/web-features-explorer/about">About</a></li>
+          </ul>
+          <search>
+            <form>
+              <input type="search" id="search" placeholder="Search">
+            </form>
+          </search>
+        </nav>
+
+        <output for="search"></output>
+      </header>
+    
+
+    
+<main class="home release-notes">
+  <h1>Stay up-to-date with the web platform</h1>
+  <p>Use the Web platform features explorer to discover new features and APIs and stay up-to-date with changes.
+
+  </p><section class="baseline-low">
+    <h2>Newly available across browsers (<a href="newly-available.xml">RSS feed</a>)</h2>
+    <ul>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/container-style-queries/">Container style queries</a></strong>:
+          Container style queries with the <code>@container</code> at-rule apply styles to an element based on the values of custom properties of its container.
+        </li>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/open-pseudo/">:open</a></strong>:
+          The <code>:open</code> CSS pseudo-class matches elements that have open states, like <code>&#x3C;details></code>, <code>&#x3C;dialog></code>, or <code>&#x3C;select></code>, based on their state.
+        </li>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/toggleevent-source/">ToggleEvent source</a></strong>:
+          The <code>source</code> property of a <code>ToggleEvent</code> object is the element which triggered the <code>toggle</code> event to fire for a popover, <code>&#x3C;dialog></code>, or <code>&#x3C;details></code> element, if applicable.
+        </li>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/crisp-edges/">crisp-edges</a></strong>:
+          The <code>image-rendering: crisp-edges</code> CSS declaration scales images to preserve lines without blurring.
+        </li>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/text-decoration-skip-ink-all/">text-decoration-skip-ink: all</a></strong>:
+          The <code>text-decoration-skip-ink: all</code> CSS declaration forces interruptions in underlines and overlines where the line would cross a glyph. This contrasts with <code>auto</code>, which does not skip for CJK glyphs.
+        </li>
+      
+    </ul>
+  </section>
+
+  <section class="baseline-high">
+    <h2>Now widely available across browsers (<a href="widely-available.xml">RSS feed</a>)</h2>
+    <ul>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/lh/">lh unit</a></strong>:
+          The <code>lh</code> CSS length unit corresponds to the requested line height, the computed value of the <code>line-height</code> property. Some lines may be higher than this based on their content.
+        </li>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/user-activation/">User activation</a></strong>:
+          The <code>navigator.userActivation</code> API reveals whether the user has interacted with the page through an "activation" gesture such as a click, tap, or key press. User activation gated APIs (such as the fullscreen API) fail without user interaction, and this API allows you to predict such a failure.
+        </li>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/modulepreload/">&lt;link rel="modulepreload"&gt;</a></strong>:
+          The <code>rel="modulepreload"</code> attribute for the <code>&#x3C;link></code> HTML element indicates that a module script should be fetched, parsed, and compiled preemptively, and stored for later execution.
+        </li>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/overflow/">Overflow media queries</a></strong>:
+          The <code>overflow-block</code> and <code>overflow-inline</code> CSS media queries set styles based on the way a device displays content that's larger than the viewport or page area. For example, a laptop lets users scroll to reveal content, while a printer displays overflowing content on additional pages.
+        </li>
+      
+        <li>
+          <strong><a href="/web-features-explorer/features/nth-child-of/">:nth-child() of &lt;selector&gt;</a></strong>:
+          The <code>of</code> syntax for the <code>:nth-child()</code> and <code>:nth-last-child()</code> CSS functional pseudo-classes match elements by the relative position of elements, counted from the first or last sibling matching a selector list.
+        </li>
+      
+    </ul>
+  </section>
+</main>
+
+        
+      <script src="/web-features-explorer/assets/search.js" defer=""></script>
+    
+  </body>
+</html>
