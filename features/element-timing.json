@@ -200,8 +200,8 @@
   "url": "https://wpt.fyi/results?q=feature:element-timing"
  },
  "developerSignals": {
-  "url": "https://github.com/web-platform-dx/developer-signals/issues/110",
-  "votes": 1
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/603",
+  "votes": 0
  },
  "bugs": {},
  "baselineLowDateAsObject": null,

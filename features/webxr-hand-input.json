@@ -227,7 +227,7 @@
  "hasNegativeStandardPosition": false,
  "stateOfSurveys": [],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 8e-8,
+  "percentageOfPageLoad": 9e-8,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/407"
  },
  "interop": [],
@@ -235,7 +235,7 @@
   "url": "https://wpt.fyi/results?q=feature:webxr-hand-input"
  },
  "developerSignals": {
-  "url": "https://github.com/web-platform-dx/developer-signals/issues/263",
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/735",
   "votes": 0
  },
  "bugs": {
