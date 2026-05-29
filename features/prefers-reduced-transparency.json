@@ -117,7 +117,7 @@
  "hasNegativeStandardPosition": false,
  "stateOfSurveys": [],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.0456816,
+  "percentageOfPageLoad": 0.04569622,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/175"
  },
  "interop": [],
@@ -126,7 +126,7 @@
  },
  "developerSignals": {
   "url": "https://github.com/web-platform-dx/developer-signals/issues/698",
-  "votes": 0
+  "votes": 1
  },
  "bugs": {
   "chrome": [
