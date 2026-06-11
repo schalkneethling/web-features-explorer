@@ -27,6 +27,7 @@
    },
    "seriesVersion": "4",
    "seriesPrevious": "css-text-3",
+   "seriesNext": "css-text-5",
    "organization": "W3C",
    "groups": [
     {
@@ -70,7 +71,7 @@
  "hasNegativeStandardPosition": false,
  "stateOfSurveys": [],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.000613,
+  "percentageOfPageLoad": 0.000684,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/439"
  },
  "interop": [],
