@@ -87,6 +87,7 @@
  },
  "bugs": {
   "firefox": [
+   "https://bugzil.la/2047128",
    "https://bugzil.la/2038424"
   ],
   "firefox_android": [
