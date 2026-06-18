@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-17T09:38:50.264Z",
+  "generatedAt": "2026-06-18T09:31:27.823Z",
   "versions": {
     "webFeatures": "3.30.0-dev-20260605112305-a5d5fc6",
     "bcd": "8.0.3",
     "caniuseLite": "1.0.30001799"
   },
   "latest": {
-    "date": "2026-06-17",
+    "date": "2026-06-18",
     "features": 1169,
     "bcdKeysMapped": 15067,
     "bcdKeysTotal": 17777,
@@ -2376,6 +2376,22 @@
     },
     {
       "date": "2026-06-17",
+      "features": 1169,
+      "bcdKeysMapped": 15067,
+      "bcdKeysTotal": 17777,
+      "bcdKeysUnmapped": 2710,
+      "bcdCoveragePercent": 84.76,
+      "standardNonDeprecatedBcdKeysMapped": 14292,
+      "standardNonDeprecatedBcdKeysTotal": 16094,
+      "standardNonDeprecatedBcdKeysUnmapped": 1802,
+      "standardNonDeprecatedBcdCoveragePercent": 88.8,
+      "caniuseIdsMapped": 347,
+      "caniuseIdsTotal": 554,
+      "caniuseIdsUnmapped": 207,
+      "caniuseCoveragePercent": 62.64
+    },
+    {
+      "date": "2026-06-18",
       "features": 1169,
       "bcdKeysMapped": 15067,
       "bcdKeysTotal": 17777,
