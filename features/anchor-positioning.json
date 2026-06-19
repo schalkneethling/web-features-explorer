@@ -87,7 +87,6 @@
   "css.properties.align-self.anchor-center",
   "css.properties.anchor-name",
   "css.properties.anchor-name.none",
-  "css.properties.anchor-name.position_after_layout",
   "css.properties.anchor-scope",
   "css.properties.anchor-scope.all",
   "css.properties.anchor-scope.none",
@@ -1430,14 +1429,6 @@
      "firefox_android": "147",
      "safari": "26",
      "safari_ios": "26"
-    }
-   },
-   "css.properties.anchor-name.position_after_layout": {
-    "baseline": false,
-    "support": {
-     "chrome": "144",
-     "chrome_android": "144",
-     "edge": "144"
     }
    },
    "css.properties.anchor-scope": {
@@ -4546,7 +4537,10 @@
     }
    }
   },
-  "support": {}
+  "support": {
+   "firefox": "151",
+   "firefox_android": "151"
+  }
  },
  "id": "anchor-positioning",
  "groups": [],
@@ -4707,13 +4701,6 @@
   },
   {
    "name": "State of CSS 2025",
-   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
-   "question": "features",
-   "subQuestion": "all_features",
-   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.6.entity"
-  },
-  {
-   "name": "State of CSS 2025",
    "url": "https://2025.stateofcss.com/en-US/usage/#favorite_new_features",
    "question": "usage",
    "subQuestion": "favorite_new_features",
@@ -4746,6 +4733,13 @@
    "question": "layout",
    "subQuestion": "layout_pain_points",
    "path": "dataAPI.surveys.state_of_css.css2025.layout.layout_pain_points.freeform.allEditions.0.buckets.14.entity"
+  },
+  {
+   "name": "State of CSS 2025",
+   "url": "https://2025.stateofcss.com/en-US/features/#all_features",
+   "question": "features",
+   "subQuestion": "all_features",
+   "path": "dataAPI.surveys.state_of_css.css2025.features.all_features.6.entity"
   },
   {
    "name": "State of CSS 2024",
@@ -4784,7 +4778,7 @@
   }
  ],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.044566,
+  "percentageOfPageLoad": 0.04517548,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/97"
  },
  "interop": [
