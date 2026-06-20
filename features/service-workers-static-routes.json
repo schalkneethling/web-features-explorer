@@ -101,7 +101,26 @@
    "fragment": null
   }
  ],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "slug": "Web/API/InstallEvent",
+   "title": "InstallEvent",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/InstallEvent"
+  },
+  {
+   "slug": "Web/API/InstallEvent/InstallEvent",
+   "title": "InstallEvent: InstallEvent() constructor",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/InstallEvent/InstallEvent"
+  },
+  {
+   "slug": "Web/API/InstallEvent/addRoutes",
+   "title": "InstallEvent: addRoutes() method",
+   "anchor": null,
+   "url": "https://developer.mozilla.org/docs/Web/API/InstallEvent/addRoutes"
+  }
+ ],
  "standardPositions": [],
  "hasNegativeStandardPosition": false,
  "stateOfSurveys": [],
@@ -109,7 +128,23 @@
  "interop": [],
  "wpt": null,
  "developerSignals": null,
- "bugs": {},
+ "bugs": {
+  "firefox": [
+   "https://bugzil.la/1855580"
+  ],
+  "firefox_android": [
+   "https://bugzil.la/1855580"
+  ],
+  "safari": [
+   "https://webkit.org/b/269893"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/269893"
+  ],
+  "webview_ios": [
+   "https://webkit.org/b/269893"
+  ]
+ },
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null
 }

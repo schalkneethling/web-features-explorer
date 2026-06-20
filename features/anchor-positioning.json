@@ -4778,7 +4778,7 @@
   }
  ],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.04517548,
+  "percentageOfPageLoad": 0.04430898,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/97"
  },
  "interop": [
@@ -4802,8 +4802,7 @@
  },
  "bugs": {
   "firefox": [
-   "https://bugzil.la/1838746",
-   "https://bugzil.la/1993692"
+   "https://bugzil.la/1838746"
   ],
   "chrome": [
    "https://issues.chromium.org/issues/382294252",
@@ -4813,9 +4812,6 @@
    "https://issues.chromium.org/issues/40281992",
    "https://issues.chromium.org/issues/40059176",
    "https://crbug.com/501399489"
-  ],
-  "firefox_android": [
-   "https://bugzil.la/1993692"
   ],
   "chrome_android": [
    "https://crbug.com/501399489"
