@@ -226,7 +226,7 @@
   }
  ],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.00001333,
+  "percentageOfPageLoad": 0.00001268,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/310"
  },
  "interop": [],
@@ -235,7 +235,7 @@
  },
  "developerSignals": {
   "url": "https://github.com/web-platform-dx/developer-signals/issues/300",
-  "votes": 69
+  "votes": 71
  },
  "bugs": {
   "firefox": [
