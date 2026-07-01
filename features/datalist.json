@@ -620,7 +620,7 @@
   }
  ],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.01642219,
+  "percentageOfPageLoad": 0.01647381,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/84"
  },
  "interop": [],
@@ -647,6 +647,6 @@
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox for Android",
- "monthsBlocked": 40,
+ "monthsBlocked": 41,
  "blockedSince": "February 2023"
 }

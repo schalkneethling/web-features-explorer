@@ -154,7 +154,7 @@
  },
  "developerSignals": {
   "url": "https://github.com/web-platform-dx/developer-signals/issues/361",
-  "votes": 76
+  "votes": 78
  },
  "bugs": {
   "firefox": [
@@ -170,6 +170,6 @@
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 6,
+ "monthsBlocked": 7,
  "blockedSince": "December 2025"
 }

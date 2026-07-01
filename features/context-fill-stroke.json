@@ -267,7 +267,7 @@
  "hasNegativeStandardPosition": false,
  "stateOfSurveys": [],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.0000383,
+  "percentageOfPageLoad": 0.00004186,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/155"
  },
  "interop": [],
@@ -276,12 +276,12 @@
  },
  "developerSignals": {
   "url": "https://github.com/web-platform-dx/developer-signals/issues/199",
-  "votes": 7
+  "votes": 8
  },
  "bugs": {},
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 26,
+ "monthsBlocked": 27,
  "blockedSince": "April 2024"
 }

@@ -164,7 +164,7 @@
   }
  ],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.02600872,
+  "percentageOfPageLoad": 0.02683558,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/6"
  },
  "interop": [],
@@ -173,7 +173,7 @@
  },
  "developerSignals": {
   "url": "https://github.com/web-platform-dx/developer-signals/issues/146",
-  "votes": 17
+  "votes": 18
  },
  "bugs": {
   "chrome": [
@@ -185,6 +185,6 @@
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Chrome Android",
- "monthsBlocked": 6,
+ "monthsBlocked": 7,
  "blockedSince": "December 2025"
 }
