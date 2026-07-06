@@ -15,12 +15,18 @@
    "css.types.url.referrer-policy": {
     "baseline": false,
     "support": {
+     "chrome": "150",
+     "chrome_android": "150",
+     "edge": "150",
      "safari": "26.2",
      "safari_ios": "26.2"
     }
    }
   },
   "support": {
+   "chrome": "150",
+   "chrome_android": "150",
+   "edge": "150",
    "safari": "26.2",
    "safari_ios": "26.2"
   }
@@ -101,5 +107,8 @@
   ]
  },
  "baselineLowDateAsObject": null,
- "baselineHighDateAsObject": null
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Firefox",
+ "monthsBlocked": 0,
+ "blockedSince": "July 2026"
 }
