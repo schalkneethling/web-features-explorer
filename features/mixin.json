@@ -76,9 +76,18 @@
  "stateOfSurveys": [],
  "chromeUseCounters": {},
  "interop": [],
- "wpt": null,
- "developerSignals": null,
- "bugs": {},
+ "wpt": {
+  "url": "https://wpt.fyi/results?q=feature:mixin"
+ },
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/877",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "https://issues.chromium.org/issues/406935599"
+  ]
+ },
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null
 }

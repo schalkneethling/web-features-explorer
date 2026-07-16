@@ -39,14 +39,24 @@
    "url": "https://github.com/whatwg/html/pull/9546"
   }
  ],
- "mdnUrls": [],
+ "mdnUrls": [
+  {
+   "slug": "Web/HTML/Reference/Elements/input#switch",
+   "title": "`<input>` HTML input element",
+   "anchor": "switch",
+   "url": "https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input#switch"
+  }
+ ],
  "standardPositions": [],
  "hasNegativeStandardPosition": false,
  "stateOfSurveys": [],
  "chromeUseCounters": {},
  "interop": [],
  "wpt": null,
- "developerSignals": null,
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/875",
+  "votes": 0
+ },
  "bugs": {},
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null

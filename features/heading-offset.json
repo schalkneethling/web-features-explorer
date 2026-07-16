@@ -169,8 +169,27 @@
  "chromeUseCounters": {},
  "interop": [],
  "wpt": null,
- "developerSignals": null,
- "bugs": {},
+ "developerSignals": {
+  "url": "https://github.com/web-platform-dx/developer-signals/issues/876",
+  "votes": 0
+ },
+ "bugs": {
+  "chrome": [
+   "https://crbug.com/333628468"
+  ],
+  "chrome_android": [
+   "https://crbug.com/333628468"
+  ],
+  "edge": [
+   "https://crbug.com/333628468"
+  ],
+  "firefox": [
+   "https://bugzil.la/1974383"
+  ],
+  "opera": [
+   "https://crbug.com/333628468"
+  ]
+ },
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null
 }
