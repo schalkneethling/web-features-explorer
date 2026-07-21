@@ -13,15 +13,20 @@
   "https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/"
  ],
  "status": {
-  "baseline": false,
+  "baseline": "high",
+  "baseline_high_date": "2024-03-02",
+  "baseline_low_date": "2021-09-02",
   "by_compat_key": {
    "api.EXT_shader_texture_lod": {
-    "baseline": false,
+    "baseline": "high",
+    "baseline_high_date": "2024-03-02",
+    "baseline_low_date": "2021-09-02",
     "support": {
      "chrome": "38",
      "chrome_android": "38",
      "edge": "93",
      "firefox": "47",
+     "firefox_android": "67",
      "safari": "8",
      "safari_ios": "8"
     }
@@ -32,6 +37,7 @@
    "chrome_android": "38",
    "edge": "93",
    "firefox": "47",
+   "firefox_android": "67",
    "safari": "8",
    "safari_ios": "8"
   }
@@ -102,9 +108,6 @@
   "votes": 0
  },
  "bugs": {},
- "baselineLowDateAsObject": null,
- "baselineHighDateAsObject": null,
- "blockedOn": "Firefox for Android",
- "monthsBlocked": 58,
- "blockedSince": "September 2021"
+ "baselineLowDateAsObject": "2021-09-02T00:00:00.000Z",
+ "baselineHighDateAsObject": "2024-03-02T00:00:00.000Z"
 }

@@ -23,6 +23,7 @@
     "baseline": false,
     "support": {
      "chrome": "37",
+     "chrome_android": "144",
      "edge": "13",
      "firefox": "50",
      "firefox_android": "50",
@@ -33,6 +34,7 @@
     "baseline": false,
     "support": {
      "chrome": "37",
+     "chrome_android": "144",
      "edge": "13",
      "firefox": "50",
      "firefox_android": "50",
@@ -43,6 +45,7 @@
     "baseline": false,
     "support": {
      "chrome": "36",
+     "chrome_android": "144",
      "edge": "13",
      "firefox": "50",
      "firefox_android": "50",
@@ -53,6 +56,7 @@
     "baseline": false,
     "support": {
      "chrome": "36",
+     "chrome_android": "144",
      "edge": "13",
      "firefox": "50",
      "firefox_android": "50",
@@ -63,6 +67,7 @@
     "baseline": false,
     "support": {
      "chrome": "37",
+     "chrome_android": "144",
      "edge": "13",
      "firefox": "50",
      "firefox_android": "50",
@@ -72,6 +77,7 @@
   },
   "support": {
    "chrome": "37",
+   "chrome_android": "144",
    "edge": "13",
    "firefox": "50",
    "firefox_android": "50",
@@ -142,7 +148,7 @@
  "hasNegativeStandardPosition": false,
  "stateOfSurveys": [],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.0006672,
+  "percentageOfPageLoad": 0.0006205,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/52"
  },
  "interop": [],
@@ -161,5 +167,8 @@
   ]
  },
  "baselineLowDateAsObject": null,
- "baselineHighDateAsObject": null
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari on iOS",
+ "monthsBlocked": 6,
+ "blockedSince": "January 2026"
 }
