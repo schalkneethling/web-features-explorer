@@ -20,14 +20,18 @@
     "support": {
      "chrome": "137",
      "chrome_android": "137",
-     "edge": "137"
+     "edge": "137",
+     "firefox": "153",
+     "firefox_android": "153"
     }
    }
   },
   "support": {
    "chrome": "137",
    "chrome_android": "137",
-   "edge": "137"
+   "edge": "137",
+   "firefox": "153",
+   "firefox_android": "153"
   }
  },
  "id": "wasm-jspi",
@@ -58,5 +62,8 @@
  },
  "bugs": {},
  "baselineLowDateAsObject": null,
- "baselineHighDateAsObject": null
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Safari",
+ "monthsBlocked": 0,
+ "blockedSince": "July 2026"
 }

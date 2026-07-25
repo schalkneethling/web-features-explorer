@@ -19,74 +19,96 @@
   "https://tc39.es/ecma402/#locale-objects"
  ],
  "status": {
-  "baseline": false,
+  "baseline": "low",
+  "baseline_low_date": "2026-07-21",
   "by_compat_key": {
    "javascript.builtins.Intl.Locale.getCalendars": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2026-07-21",
     "support": {
      "chrome": "130",
      "chrome_android": "130",
      "edge": "130",
+     "firefox": "153",
+     "firefox_android": "153",
      "safari": "17",
      "safari_ios": "17"
     }
    },
    "javascript.builtins.Intl.Locale.getCollations": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2026-07-21",
     "support": {
      "chrome": "130",
      "chrome_android": "130",
      "edge": "130",
+     "firefox": "153",
+     "firefox_android": "153",
      "safari": "17",
      "safari_ios": "17"
     }
    },
    "javascript.builtins.Intl.Locale.getHourCycles": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2026-07-21",
     "support": {
      "chrome": "130",
      "chrome_android": "130",
      "edge": "130",
+     "firefox": "153",
+     "firefox_android": "153",
      "safari": "17",
      "safari_ios": "17"
     }
    },
    "javascript.builtins.Intl.Locale.getNumberingSystems": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2026-07-21",
     "support": {
      "chrome": "130",
      "chrome_android": "130",
      "edge": "130",
+     "firefox": "153",
+     "firefox_android": "153",
      "safari": "17",
      "safari_ios": "17"
     }
    },
    "javascript.builtins.Intl.Locale.getTextInfo": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2026-07-21",
     "support": {
      "chrome": "130",
      "chrome_android": "130",
      "edge": "130",
+     "firefox": "153",
+     "firefox_android": "153",
      "safari": "17",
      "safari_ios": "17"
     }
    },
    "javascript.builtins.Intl.Locale.getTimeZones": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2026-07-21",
     "support": {
      "chrome": "130",
      "chrome_android": "130",
      "edge": "130",
+     "firefox": "153",
+     "firefox_android": "153",
      "safari": "17",
      "safari_ios": "17"
     }
    },
    "javascript.builtins.Intl.Locale.getWeekInfo": {
-    "baseline": false,
+    "baseline": "low",
+    "baseline_low_date": "2026-07-21",
     "support": {
      "chrome": "130",
      "chrome_android": "130",
      "edge": "130",
+     "firefox": "153",
+     "firefox_android": "153",
      "safari": "17",
      "safari_ios": "17"
     }
@@ -96,6 +118,8 @@
    "chrome": "130",
    "chrome_android": "130",
    "edge": "130",
+   "firefox": "153",
+   "firefox_android": "153",
    "safari": "17",
    "safari_ios": "17"
   }
@@ -159,23 +183,18 @@
  "hasNegativeStandardPosition": false,
  "stateOfSurveys": [],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.01961429,
+  "percentageOfPageLoad": 0.01931987,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/244"
  },
  "interop": [],
  "wpt": null,
- "developerSignals": {
-  "url": "https://github.com/web-platform-dx/developer-signals/issues/213",
-  "votes": 4
- },
+ "developerSignals": null,
  "bugs": {
   "chrome": [
    "https://issues.chromium.org/issues/42203769"
   ]
  },
- "baselineLowDateAsObject": null,
+ "baselineLowDateAsObject": "2026-07-21T00:00:00.000Z",
  "baselineHighDateAsObject": null,
- "blockedOn": "Firefox",
- "monthsBlocked": 21,
- "blockedSince": "October 2024"
+ "expectedBaselineHighDate": "2029-01-21"
 }
