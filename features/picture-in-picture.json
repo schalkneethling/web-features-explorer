@@ -351,9 +351,10 @@
    "https://bugzil.la/1463402"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "blockedOn": "Firefox for Android",
- "monthsBlocked": 1,
- "blockedSince": "July 2026"
+ "blockedOn": "Firefox",
+ "blockedSince": "July 2026",
+ "monthsBlocked": 1
 }

@@ -497,9 +497,10 @@
    "https://crbug.com/40611412"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "blockedOn": "Firefox for Android",
- "monthsBlocked": 59,
- "blockedSince": "September 2021"
+ "blockedOn": "Firefox",
+ "blockedSince": "September 2021",
+ "monthsBlocked": 59
 }

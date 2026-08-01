@@ -139,9 +139,10 @@
    "https://issues.chromium.org/issues/41295617"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 22,
- "blockedSince": "October 2024"
+ "blockedSince": "October 2024",
+ "monthsBlocked": 22
 }

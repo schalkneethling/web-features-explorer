@@ -344,9 +344,10 @@
    "https://bugzil.la/1751383"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 20,
- "blockedSince": "December 2024"
+ "blockedSince": "December 2024",
+ "monthsBlocked": 20
 }

@@ -97,9 +97,10 @@
    "https://bugzil.la/1690255"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 46,
- "blockedSince": "October 2022"
+ "blockedSince": "October 2022",
+ "monthsBlocked": 46
 }

@@ -1623,9 +1623,10 @@
    "https://bugs.chromium.org/p/chromium/issues/detail?id=897297"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "blockedOn": "Firefox for Android",
- "monthsBlocked": 11,
- "blockedSince": "September 2025"
+ "blockedOn": "Firefox",
+ "blockedSince": "September 2025",
+ "monthsBlocked": 11
 }

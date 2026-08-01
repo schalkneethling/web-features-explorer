@@ -175,9 +175,15 @@
    "https://bugs.chromium.org/p/chromium/issues/detail?id=1098355"
   ]
  },
+ "useCases": [
+  {
+   "description": "I want to improve layout shift caused by a web font with large line gaps.",
+   "url": "https://github.com/web-platform-dx/developer-signals/issues/132#issuecomment-5074061789"
+  }
+ ],
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 62,
- "blockedSince": "June 2021"
+ "blockedSince": "June 2021",
+ "monthsBlocked": 62
 }

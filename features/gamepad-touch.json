@@ -110,9 +110,10 @@
    "https://crbug.com/830140"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 89,
- "blockedSince": "March 2019"
+ "blockedSince": "March 2019",
+ "monthsBlocked": 89
 }

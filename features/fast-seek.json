@@ -201,6 +201,10 @@
    "https://crbug.com/41276303"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
- "baselineHighDateAsObject": null
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Chromium",
+ "blockedSince": "October 2014",
+ "monthsBlocked": 142
 }

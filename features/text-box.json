@@ -276,9 +276,10 @@
    "https://bugs.chromium.org/p/chromium/issues/detail?id=1411581"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 18,
- "blockedSince": "February 2025"
+ "blockedSince": "February 2025",
+ "monthsBlocked": 18
 }

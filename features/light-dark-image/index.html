@@ -1,35 +1,1688 @@
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Web platform features explorer - light-dark() image values</title>
+    <title>Web features explorer - light-dark() image values</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The light-dark() CSS function accepts, in addition to colors, two &lt;image&gt; values, such as a gradient or URL, and uses one depending on the current color scheme.">
+    <link rel="canonical" href="https://web-platform-dx.github.io/web-features-explorer/features/light-dark-image/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Web features explorer">
+    <meta property="og:title" content="light-dark() image values - Web platform features explorer">
+    <meta property="og:description" content="The light-dark() CSS function accepts, in addition to colors, two &lt;image&gt; values, such as a gradient or URL, and uses one depending on the current color scheme.">
+    <meta property="og:image" content="https://web-platform-dx.github.io/web-features-explorer/assets/og/features/light-dark-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://web-platform-dx.github.io/web-features-explorer/features/light-dark-image/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="light-dark() image values - Web platform features explorer">
+    <meta name="twitter:description" content="The light-dark() CSS function accepts, in addition to colors, two &lt;image&gt; values, such as a gradient or URL, and uses one depending on the current color scheme.">
+    <meta name="twitter:image" content="https://web-platform-dx.github.io/web-features-explorer/assets/og/features/light-dark-image.png">
     <link rel="stylesheet" type="text/css" href="/web-features-explorer/assets/styles.css">
     
-    <link href="/web-features-explorer/assets/favicon.png" rel="icon" sizes="64x64" type="image/png">
+    <link href="https://web-platform-dx.github.io/assets/img/webdx-notext.svg" rel="icon" type="image/svg+xml">
+    <link rel="alternate" type="application/atom+xml" title="Baseline newly available features" href="/web-features-explorer/newly-available.xml">
+    <link rel="alternate" type="application/atom+xml" title="Baseline widely available features" href="/web-features-explorer/widely-available.xml">
     <link rel="alternate" type="application/atom+xml" title="Web platform release notes" href="/web-features-explorer/release-notes.xml">
   </head>
   <body>
 
     
       <header>
-        <a href="/web-features-explorer/">Web platform features explorer</a>
+        <a href="/web-features-explorer/" class="logo-text">Web features <span>explorer</span></a>
+
+        <search>
+          <form>
+            <input type="search" id="search" placeholder="Search for features">
+          </form>
+        </search>
+        <output for="search"></output>
 
         <nav>
           <ul>
+            <li><a href="/web-features-explorer/">Home</a></li>
             <li><a href="/web-features-explorer/release-notes/july-2026">Release notes</a></li>
-            <li><a href="/web-features-explorer/newly-available">Explore features</a></li>
             <li><a href="/web-features-explorer/about">About</a></li>
-          </ul>
-          <search>
-            <form>
-              <input type="search" id="search" placeholder="Search">
-            </form>
-          </search>
-        </nav>
 
-        <output for="search"></output>
+            <li class="section-header">Features</li>
+            
+            <li><a href="/web-features-explorer/newly-available">Newly available</a></li>
+            <li><a href="/web-features-explorer/widely-available">Widely available</a></li>
+            <li><a href="/web-features-explorer/limited-availability">Limited availability</a></li>
+            <li><a href="/web-features-explorer/discouraged">Discouraged</a></li>
+            <li><a href="/web-features-explorer/opposed">Opposed</a></li>
+            <li><a href="/web-features-explorer/most-wanted">Most wanted</a></li>
+            <li><a href="/web-features-explorer/features">All features</a></li>
+
+            <li class="section-header">Missing only in</li>
+            
+            
+              <li><a href="/web-features-explorer/missing-only-in/chromium/">Chromium</a></li>
+            
+              <li><a href="/web-features-explorer/missing-only-in/firefox/">Firefox</a></li>
+            
+              <li><a href="/web-features-explorer/missing-only-in/safari/">Safari</a></li>
+            
+
+            <li class="section-header">Implemented only in</li>
+
+            
+              <li><a href="/web-features-explorer/only-in/chromium/">Chromium</a></li>
+            
+              <li><a href="/web-features-explorer/only-in/firefox/">Firefox</a></li>
+            
+              <li><a href="/web-features-explorer/only-in/safari/">Safari</a></li>
+            
+
+            <li class="section-header">Features in latest releases</li>
+  
+            
+              <li>
+                <a href="/web-features-explorer/browsers/chrome/">
+                  Chrome
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      150
+                    
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/web-features-explorer/browsers/chrome-android/">
+                  Chrome Android
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      150
+                    
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/web-features-explorer/browsers/edge/">
+                  Edge
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      150
+                    
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/web-features-explorer/browsers/firefox/">
+                  Firefox
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      153
+                    
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/web-features-explorer/browsers/firefox-android/">
+                  Firefox for Android
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      153
+                    
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/web-features-explorer/browsers/safari/">
+                  Safari
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      26.5
+                    
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/web-features-explorer/browsers/safari-ios/">
+                  Safari on iOS
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    
+                      26.5
+                    
+                  
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
       </header>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span class="logo-text">Web features <span>explorer</span>
+      </span></button>
+      <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const header = document.querySelector("header");
+        menuToggle.addEventListener("click", () => {
+          header.classList.toggle("open");
+        });
+      </script>
     
 
     
@@ -37,6 +1690,14 @@
   <div id="light-dark-image" class="feature full baseline-false">
   <div class="header">
     <h1 data-pagefind-body="">light-dark() image values</h1>
+    
+  <div class="availability">
+    Limited availability
+    
+    
+  </div>
+
+    
     <span class="feature-copyable-id"><input id="feature-id" type="text" value="light-dark-image" data-len="16"><button id="copy-feature-id">Copy ID</button></span>
     <script>
       (function() {
@@ -51,25 +1712,130 @@
   </div>
 
   
+  
 
   <p class="description" data-pagefind-body="">
     The <code>light-dark()</code> CSS function accepts, in addition to colors, two <code>&#x3C;image></code> values, such as a gradient or URL, and uses one depending on the current color scheme.
   </p>
 
-  <div class="baseline feature-box">
-    <h3>Status</h3>
-    <div class="availability">
+  <div class="compat-table feature-box">
+    <h3>Browser support</h3>
+    <ul class="compat compat-full">
   
-    Limited availability
-    
-    
+    <li class="browser browser-chrome supported">
+      <span class="name">Chrome</span>
+      
+      
+        <span class="version supported">150</span>
+        <span class="date">Released on 2026-06-30</span>
+      
+    </li>
   
-</div>
-    
-    
+    <li class="browser browser-chrome_android supported">
+      <span class="name">Chrome Android</span>
+      
+      
+        <span class="version supported">150</span>
+        <span class="date">Released on 2026-06-30</span>
+      
+    </li>
+  
+    <li class="browser browser-edge supported">
+      <span class="name">Edge</span>
+      
+      
+        <span class="version supported">150</span>
+        <span class="date">Released on 2026-07-02</span>
+      
+    </li>
+  
+    <li class="browser browser-firefox supported">
+      <span class="name">Firefox</span>
+      
+      
+        <span class="version supported">150</span>
+        <span class="date">Released on 2026-04-21</span>
+      
+    </li>
+  
+    <li class="browser browser-firefox_android supported">
+      <span class="name">Firefox for Android</span>
+      
+      
+        <span class="version supported">150</span>
+        <span class="date">Released on 2026-04-21</span>
+      
+    </li>
+  
+    <li class="browser browser-safari">
+      <span class="name">Safari</span>
+      
+      
+        <span class="version unsupported">
+          Not supported
+          
+
+          
+            <span class="bug">
+              Bugs:
+              
+                <a href="https://webkit.org/b/309689">309689</a>
+              
+            </span>
+          
+        </span>
+        <span class="date"></span>
+      
+    </li>
+  
+    <li class="browser browser-safari_ios">
+      <span class="name">Safari on iOS</span>
+      
+      
+        <span class="version unsupported">
+          Not supported
+          
+
+          
+            <span class="bug">
+              Bugs:
+              
+                <a href="https://webkit.org/b/309689">309689</a>
+              
+            </span>
+          
+        </span>
+        <span class="date"></span>
+      
+    </li>
+  
+</ul>
+      <p class="baseline-blocked-since">Baseline availability blocked since July 2026 by Safari (1 months)</p>
   </div>
 
-  <div class="docs feature-box">
+  
+  <div class="developer-signals feature-box">
+    <div class="votes">
+      <a href="https://github.com/web-platform-dx/developer-signals/issues/568">
+        <strong>
+          👍
+          <br>
+          18
+        </strong>
+      </a>
+    </div>
+    <p>
+      <strong>Need this feature?</strong>
+      <br>
+      <a href="https://github.com/web-platform-dx/developer-signals/issues/568">Leave a 👍 on the feedback issue</a>
+      <br>
+      Don't forget to also leave a comment explaining your specific use case.
+    </p>
+  </div>
+
+
+  <div class="additional-feature-data">
+    <div class="docs feature-box">
   <h3>MDN documentation</h3>
   
     <strong>No MDN documentation found.</strong>
@@ -79,8 +1845,7 @@
   
 </div>
 
-
-  
+    
   <div class="specs feature-box" data-pagefind-body="">
     <h3>Specifications</h3>
     <ul data-pagefind-body="">
@@ -95,120 +1860,117 @@
     </ul>
   </div>
 
-  
-  <div class="compat-table feature-box">
-    <h3>Browser support</h3>
-    <ul class="compat compat-full">
-  
-    <li class="browser browser-chrome supported">
-      <span class="name">Chrome</span>
-      
-      
-        <span class="version">150</span>
-        <span class="date">Released on 2026-06-30</span>
-      
-    </li>
-  
-    <li class="browser browser-chrome_android supported">
-      <span class="name">Chrome Android</span>
-      
-      
-        <span class="version">150</span>
-        <span class="date">Released on 2026-06-30</span>
-      
-    </li>
-  
-    <li class="browser browser-edge supported">
-      <span class="name">Edge</span>
-      
-      
-        <span class="version">150</span>
-        <span class="date">Released on 2026-07-02</span>
-      
-    </li>
-  
-    <li class="browser browser-firefox supported">
-      <span class="name">Firefox</span>
-      
-      
-        <span class="version">150</span>
-        <span class="date">Released on 2026-04-21</span>
-      
-    </li>
-  
-    <li class="browser browser-firefox_android supported">
-      <span class="name">Firefox for Android</span>
-      
-      
-        <span class="version">150</span>
-        <span class="date">Released on 2026-04-21</span>
-      
-    </li>
-  
-    <li class="browser browser-safari">
-      <span class="name">Safari</span>
-      
-      
-        <span class="version">❌</span>
-        
-          <span class="bug">
-            See
-            
-              <a href="https://webkit.org/b/309689">webkit.org/b/309689</a>
-            
-          </span>
-        
-        
+    
+    
+    
+    
+    
+  <div class="use-cases feature-box">
+    <h3>Developer use cases</h3>
+    <ul>
+    
+      <li>
+        <details class="string-revealer">
+          <summary>- Use different images/photos/illustrations that are tuned for the corresponding mode.
+- Use an alternative version of the logo, for example, Datadog logo has a strict guidelines where on dark backgrounds it must use a different shape: https://www.datadoghq.com/about/resources/
+- Adjusting icons/images to have a better contrast with the inverted background while keeping the same color (adding outlines, shadows, or something else that makes the image stand out against an otherwise similarly-bright background)
 
-      
-    </li>
-  
-    <li class="browser browser-safari_ios">
-      <span class="name">Safari on iOS</span>
-      
-      
-        <span class="version">❌</span>
-        
-          <span class="bug">
-            See
-            
-              <a href="https://webkit.org/b/309689">webkit.org/b/309689</a>
-            
-          </span>
-        
-        
+While these could be adjusted with media queries, often a page could have sections that has inverted colors (navigation menus, sidebars, etc), and any image inside will need to be adjusted based on the `color-scheme` used on the container.
 
-      
-    </li>
-  
-</ul>
-      <p>Baseline availability blocked since July 2026 by Safari (1 months)</p>
+&lt;details&gt;
+
+&lt;summary&gt;Aside from images, I also want to use it with any CSS properties and values.&lt;/summary&gt;
+
+(hiding in the details, as I originally misread the topic to consider all the `light-dark()` use cases and not just images, haha)
+
+Use cases that I saw in the wild:
+
+- Adjusting the `filter` property — making things ligher/darker, adjusting contrast and saturation, etc. Same for `mix-blend-mode`, `background-blend-mode` and other similar properties.
+- Optical adjustments via `transform` or adjusting the width of borders/shadows.
+- Changing the `opacity` of something (often, also for optical/brightness adjustments).
+- Adjusting the presence/size/spread of some box or text shadow.
+- `display` value, like when you need to show a specific image or element for the corresponding color scheme (we can do responsive images based on media queries, but not on a component-level `color-scheme`, and sometimes you want to change the copy or something else too).
+
+&lt;/details&gt;</summary>
+          - Use different images/photos/illustrations that are tuned for the corresponding mode.
+- Use an alternative version of the logo, for example, Datadog logo has a strict guidelines where on dark backgrounds it must use a different shape: https://www.datadoghq.com/about/resources/
+- Adjusting icons/images to have a better contrast with the inverted background while keeping the same color (adding outlines, shadows, or something else that makes the image stand out against an otherwise similarly-bright background)
+
+While these could be adjusted with media queries, often a page could have sections that has inverted colors (navigation menus, sidebars, etc), and any image inside will need to be adjusted based on the `color-scheme` used on the container.
+
+&lt;details&gt;
+
+&lt;summary&gt;Aside from images, I also want to use it with any CSS properties and values.&lt;/summary&gt;
+
+(hiding in the details, as I originally misread the topic to consider all the `light-dark()` use cases and not just images, haha)
+
+Use cases that I saw in the wild:
+
+- Adjusting the `filter` property — making things ligher/darker, adjusting contrast and saturation, etc. Same for `mix-blend-mode`, `background-blend-mode` and other similar properties.
+- Optical adjustments via `transform` or adjusting the width of borders/shadows.
+- Changing the `opacity` of something (often, also for optical/brightness adjustments).
+- Adjusting the presence/size/spread of some box or text shadow.
+- `display` value, like when you need to show a specific image or element for the corresponding color scheme (we can do responsive images based on media queries, but not on a component-level `color-scheme`, and sometimes you want to change the copy or something else too).
+
+&lt;/details&gt; [<a href="https://github.com/web-platform-dx/developer-signals/issues/568#issuecomment-4418675627">see original comment</a>]
+        </details>
+      </li>
+    
+      <li>
+        <details class="string-revealer">
+          <summary>Let&#39;s say I have image/ video cards, where the card&#39;s **hue** matches what&#39;s dominant in the `src` of the `img` element/ `poster` of the `video` element, while the saturation, lightness and alpha are user set.
+
+The page background and the card text depend on the theme via `light-dark()`.
+
+```
+:root { background: light-dark(#dedede, #212121) }
+
+.card { color: light-dark(#121212, #ededed) }
+```
+
+However, depending on the user set lightness and alpha for the card background, the text contrast may be less than ideal. We could have this situation:
+
+![in the dark theme case, when the card text is close to white, user set lightness and alpha are high, resulting in a pretty opaque bright card background, which means poor contrast](https://github.com/user-attachments/assets/f1db6dee-a2f7-4fcb-b230-07f7fa67a74f)
+
+Or this situation:
+
+![in the light theme case, when the card text is close to black, user set lightness is low and alpha is high, resulting in a pretty opaque dark card background, which means poor contrast](https://github.com/user-attachments/assets/cbaa5aba-d63b-4aa6-b928-bbb0fc2857d1)
+
+Since the user set brightness and alpha are stored as numeric values in custom properties, I could use them to compute the proper values inside the `light-dark()` for the card&#39;s text `color`... **if** I also have a custom property `--dark` that changes automatically with the theme. Something like this:
+
+```
+:root { --dark: light-dark(0, 1) }
+```</summary>
+          Let&#39;s say I have image/ video cards, where the card&#39;s **hue** matches what&#39;s dominant in the `src` of the `img` element/ `poster` of the `video` element, while the saturation, lightness and alpha are user set.
+
+The page background and the card text depend on the theme via `light-dark()`.
+
+```
+:root { background: light-dark(#dedede, #212121) }
+
+.card { color: light-dark(#121212, #ededed) }
+```
+
+However, depending on the user set lightness and alpha for the card background, the text contrast may be less than ideal. We could have this situation:
+
+![in the dark theme case, when the card text is close to white, user set lightness and alpha are high, resulting in a pretty opaque bright card background, which means poor contrast](https://github.com/user-attachments/assets/f1db6dee-a2f7-4fcb-b230-07f7fa67a74f)
+
+Or this situation:
+
+![in the light theme case, when the card text is close to black, user set lightness is low and alpha is high, resulting in a pretty opaque dark card background, which means poor contrast](https://github.com/user-attachments/assets/cbaa5aba-d63b-4aa6-b928-bbb0fc2857d1)
+
+Since the user set brightness and alpha are stored as numeric values in custom properties, I could use them to compute the proper values inside the `light-dark()` for the card&#39;s text `color`... **if** I also have a custom property `--dark` that changes automatically with the theme. Something like this:
+
+```
+:root { --dark: light-dark(0, 1) }
+``` [<a href="https://github.com/web-platform-dx/developer-signals/issues/568#issuecomment-4439039351">see original comment</a>]
+        </details>
+      </li>
+    
+    </ul>
   </div>
 
-  
-
-  
-
-  
-
-  
-
-  
-  <div class="developer-signals feature-box">
-    <h3>Developer votes</h3>
-    <div class="votes">
-      <a href="https://github.com/web-platform-dx/developer-signals/issues/568">
-        <strong>
-          👍
-          <br>
-          18
-        </strong>
-      </a>
-    </div>
-    <p>Do you need this feature?<br>
-       Let us know by leaving a 👍 reaction on <a href="https://github.com/web-platform-dx/developer-signals/issues/568">the feedback issue</a>. Don't forget to also leave a comment explaining your specific use case.</p>
   </div>
-
 
   <p class="edit-links">
     <a href="../light-dark-image.json">View as JSON</a>
@@ -224,6 +1986,7 @@
 </div>
 
 </main>
+
 
         
       <script src="/web-features-explorer/assets/search.js" defer=""></script>

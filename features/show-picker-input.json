@@ -313,9 +313,10 @@
    "https://webkit.org/b/261703"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "blockedOn": "Safari on iOS",
- "monthsBlocked": 29,
- "blockedSince": "March 2024"
+ "blockedOn": "Safari",
+ "blockedSince": "March 2024",
+ "monthsBlocked": 29
 }

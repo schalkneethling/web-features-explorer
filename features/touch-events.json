@@ -469,9 +469,10 @@
    "https://code.google.com/p/chromium/issues/detail?id=379150"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 113,
- "blockedSince": "March 2017"
+ "blockedSince": "March 2017",
+ "monthsBlocked": 113
 }

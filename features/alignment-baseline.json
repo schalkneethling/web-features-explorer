@@ -225,9 +225,10 @@
    "https://bugzil.la/1403440"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 79,
- "blockedSince": "January 2020"
+ "blockedSince": "January 2020",
+ "monthsBlocked": 79
 }

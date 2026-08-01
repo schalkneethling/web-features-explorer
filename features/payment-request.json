@@ -477,9 +477,10 @@
    "http://crbug.com/587995"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 100,
- "blockedSince": "April 2018"
+ "blockedSince": "April 2018",
+ "monthsBlocked": 100
 }

@@ -106,9 +106,10 @@
    "https://bugzil.la/2038424"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 1,
- "blockedSince": "July 2026"
+ "blockedSince": "July 2026",
+ "monthsBlocked": 1
 }

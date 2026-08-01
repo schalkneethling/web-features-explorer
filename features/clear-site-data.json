@@ -237,6 +237,10 @@
    "https://crbug.com/40599527"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
- "baselineHighDateAsObject": null
+ "baselineHighDateAsObject": null,
+ "blockedOn": "Chromium",
+ "blockedSince": "April 2025",
+ "monthsBlocked": 16
 }

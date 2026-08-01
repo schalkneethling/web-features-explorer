@@ -275,9 +275,15 @@
    "https://webkit.org/b/278247"
   ]
  },
+ "useCases": [
+  {
+   "description": "Fancier transitions on my website.",
+   "url": "https://github.com/web-platform-dx/developer-signals/issues/248#issuecomment-4855376304"
+  }
+ ],
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 20,
- "blockedSince": "December 2024"
+ "blockedSince": "December 2024",
+ "monthsBlocked": 20
 }

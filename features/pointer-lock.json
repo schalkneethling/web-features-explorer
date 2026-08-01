@@ -166,9 +166,10 @@
    "http://crbug.com/72754"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "blockedOn": "Safari on iOS",
- "monthsBlocked": 7,
- "blockedSince": "January 2026"
+ "blockedOn": "Safari",
+ "blockedSince": "January 2026",
+ "monthsBlocked": 7
 }

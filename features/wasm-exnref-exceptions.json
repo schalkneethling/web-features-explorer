@@ -62,9 +62,10 @@
   "votes": 0
  },
  "bugs": {},
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "blockedOn": "Edge",
- "monthsBlocked": 15,
- "blockedSince": "May 2025"
+ "blockedOn": "Chromium",
+ "blockedSince": "May 2025",
+ "monthsBlocked": 15
 }

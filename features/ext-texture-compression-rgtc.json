@@ -105,9 +105,10 @@
   "votes": 0
  },
  "bugs": {},
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "blockedOn": "Safari on iOS",
- "monthsBlocked": 59,
- "blockedSince": "September 2021"
+ "blockedOn": "Safari",
+ "blockedSince": "September 2021",
+ "monthsBlocked": 59
 }

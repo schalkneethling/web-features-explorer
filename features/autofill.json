@@ -190,9 +190,10 @@
    "https://crbug.com/1164311"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 42,
- "blockedSince": "February 2023"
+ "blockedSince": "February 2023",
+ "monthsBlocked": 42
 }

@@ -102,9 +102,10 @@
   "votes": 0
  },
  "bugs": {},
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "blockedOn": "Firefox for Android",
- "monthsBlocked": 64,
- "blockedSince": "April 2021"
+ "blockedOn": "Firefox",
+ "blockedSince": "April 2021",
+ "monthsBlocked": 64
 }

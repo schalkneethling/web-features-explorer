@@ -238,9 +238,10 @@
    "https://crbug.com/234081017"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 31,
- "blockedSince": "January 2024"
+ "blockedSince": "January 2024",
+ "monthsBlocked": 31
 }

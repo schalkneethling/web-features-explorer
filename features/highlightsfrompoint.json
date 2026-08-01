@@ -107,9 +107,10 @@
   "votes": 7
  },
  "bugs": {},
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 4,
- "blockedSince": "April 2026"
+ "blockedSince": "April 2026",
+ "monthsBlocked": 4
 }

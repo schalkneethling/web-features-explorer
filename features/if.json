@@ -158,6 +158,20 @@
    "https://webkit.org/b/296995"
   ]
  },
+ "useCases": [
+  {
+   "description": "make elements dependable (if x happens, let y) etc. I want to be able to not use javascript as some websites dont allow it. i use firefox.",
+   "url": "https://github.com/web-platform-dx/developer-signals/issues/303#issuecomment-4639859203"
+  },
+  {
+   "description": "Make some colors change depending on a flag. The flag can be set in several different ways, so I need to make it a custom property.",
+   "url": "https://github.com/web-platform-dx/developer-signals/issues/303#issuecomment-4755753120"
+  },
+  {
+   "description": "I have some places where typography scales based on the selected size of the image next to it. I know the size of the image as a variable already, I'd love to be able to set weight, letter-spacing, etc. based on the image size.",
+   "url": "https://github.com/web-platform-dx/developer-signals/issues/303#issuecomment-4767720502"
+  }
+ ],
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null
 }

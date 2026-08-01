@@ -131,9 +131,10 @@
    "https://bugs.chromium.org/p/chromium/issues/detail?id=924069"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 16,
- "blockedSince": "April 2025"
+ "blockedSince": "April 2025",
+ "monthsBlocked": 16
 }

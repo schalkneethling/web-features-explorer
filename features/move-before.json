@@ -306,9 +306,10 @@
    "https://webkit.org/b/281223"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 10,
- "blockedSince": "October 2025"
+ "blockedSince": "October 2025",
+ "monthsBlocked": 10
 }

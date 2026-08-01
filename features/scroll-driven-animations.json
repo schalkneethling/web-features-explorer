@@ -610,9 +610,10 @@
    "http://crbug.com/1023424"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 11,
- "blockedSince": "September 2025"
+ "blockedSince": "September 2025",
+ "monthsBlocked": 11
 }

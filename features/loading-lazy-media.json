@@ -101,6 +101,12 @@
    "https://webkit.org/b/303995"
   ]
  },
+ "useCases": [
+  {
+   "description": "Lazy load videos that are not in the initial viewport.",
+   "url": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603"
+  }
+ ],
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null
 }

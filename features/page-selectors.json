@@ -157,9 +157,10 @@
    "https://bugzil.la/813187"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 133,
- "blockedSince": "July 2015"
+ "blockedSince": "July 2015",
+ "monthsBlocked": 133
 }

@@ -182,9 +182,10 @@
    "https://bugs.chromium.org/p/chromium/issues/detail?id=1092093"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
- "blockedOn": "Chrome Android",
- "monthsBlocked": 8,
- "blockedSince": "December 2025"
+ "blockedOn": "Chromium",
+ "blockedSince": "December 2025",
+ "monthsBlocked": 8
 }

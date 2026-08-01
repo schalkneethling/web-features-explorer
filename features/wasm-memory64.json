@@ -64,9 +64,10 @@
    "https://bugzil.la/1677586"
   ]
  },
+ "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 18,
- "blockedSince": "February 2025"
+ "blockedSince": "February 2025",
+ "monthsBlocked": 18
 }
