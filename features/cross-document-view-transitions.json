@@ -278,6 +278,6 @@
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox",
- "monthsBlocked": 19,
+ "monthsBlocked": 20,
  "blockedSince": "December 2024"
 }

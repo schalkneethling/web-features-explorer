@@ -88,6 +88,6 @@
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Safari",
- "monthsBlocked": 4,
+ "monthsBlocked": 5,
  "blockedSince": "March 2026"
 }

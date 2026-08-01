@@ -354,6 +354,6 @@
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null,
  "blockedOn": "Firefox for Android",
- "monthsBlocked": 0,
+ "monthsBlocked": 1,
  "blockedSince": "July 2026"
 }
