@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-07T08:52:42.003Z",
+  "generatedAt": "2026-08-07T17:46:13.786Z",
   "versions": {
     "webFeatures": "3.34.3-dev-20260803171035-5fdfcb9",
     "bcd": "8.0.10",
-    "caniuseLite": "1.0.30001809"
+    "caniuseLite": "1.0.30001807"
   },
   "latest": {
     "date": "2026-08-07",
