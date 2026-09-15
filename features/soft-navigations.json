@@ -8,8 +8,8 @@
   "api.PerformanceSoftNavigation.presentationTime",
   "api.PerformanceSoftNavigation.toJSON"
  ],
- "description": "The soft-navigation performance entry, which returns a PerformanceSoftNavigation instance, is emitted when soft navigation occurs in a single page app. This is defined as when a trusted user interaction causes a URL update and a visible contentful paint to the screen.",
- "description_html": "The <code>soft-navigation</code> performance entry, which returns a <code>PerformanceSoftNavigation</code> instance, is emitted when soft navigation occurs in a single page app. This is defined as when a trusted user interaction causes a URL update and a visible contentful paint to the screen.",
+ "description": "A soft-navigation performance entry measures the duration of a soft navigation in a single page app. A soft navigation is defined as when a trusted user interaction causes a URL update and a visible contentful paint to the screen.",
+ "description_html": "A <code>soft-navigation</code> performance entry measures the duration of a soft navigation in a single page app. A soft navigation is defined as when a trusted user interaction causes a URL update and a visible contentful paint to the screen.",
  "group": [
   "performance"
  ],
@@ -98,7 +98,7 @@
  "hasNegativeStandardPosition": false,
  "stateOfSurveys": [],
  "chromeUseCounters": {
-  "percentageOfPageLoad": 0.096321,
+  "percentageOfPageLoad": 0.101362,
   "url": "https://chromestatus.com/metrics/webfeature/timeline/popularity/451"
  },
  "interop": [],

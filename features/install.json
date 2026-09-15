@@ -31,9 +31,13 @@
  "wpt": null,
  "developerSignals": {
   "url": "https://github.com/web-platform-dx/developer-signals/issues/522",
-  "votes": 9
+  "votes": 10
  },
- "bugs": {},
+ "bugs": {
+  "chrome": [
+   "https://issues.chromium.org/issues/454827186"
+  ]
+ },
  "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null
