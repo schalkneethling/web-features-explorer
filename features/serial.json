@@ -1,4 +1,7 @@
 {
+ "caniuse": [
+  "web-serial"
+ ],
  "compat_features": [
   "api.Navigator.serial",
   "api.Serial",

@@ -1,4 +1,7 @@
 {
+ "caniuse": [
+  "css-appearance"
+ ],
  "compat_features": [
   "css.properties.appearance",
   "css.properties.appearance.auto",
