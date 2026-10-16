@@ -70,9 +70,7 @@
     "support": {
      "chrome": "138",
      "chrome_android": "138",
-     "edge": "138",
-     "safari": "26",
-     "safari_ios": "26"
+     "edge": "138"
     }
    },
    "http.headers.Integrity-Policy.blocked-destinations_style": {
@@ -169,7 +167,14 @@
   "url": "https://github.com/web-platform-dx/developer-signals/issues/580",
   "votes": 1
  },
- "bugs": {},
+ "bugs": {
+  "safari": [
+   "https://webkit.org/b/326340"
+  ],
+  "safari_ios": [
+   "https://webkit.org/b/326340"
+  ]
+ },
  "useCases": null,
  "baselineLowDateAsObject": null,
  "baselineHighDateAsObject": null
